@@ -16,7 +16,7 @@ class ProfileController extends Controller
         ];
         $name = "access_token";
         $value = "123-XYZ";
-        $minutes = "1";
+        $minutes = 1;
         $path = "/";
         $domain = $_SERVER['SERVER_NAME'];
         $secure = false;
